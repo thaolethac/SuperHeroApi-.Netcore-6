@@ -9,8 +9,6 @@ namespace SuperHeroApi.Controllers
     [ApiController]
     public class SuperHeroController : ControllerBase
     {
-        private static List<SuperHero> heroes = new List<SuperHero> { };
-
         private readonly DataContext _context;
         public SuperHeroController(DataContext context)
         {
